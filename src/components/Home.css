@@ -31,3 +31,12 @@
     color: #4f5050;
     
 }
+
+img {
+	width: 500px;
+	height: 300px;
+    display:inline-block;
+    margin-right : 30px;
+}
+
+
