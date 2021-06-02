@@ -2,10 +2,13 @@
 
 .nav-link, .nav-items {
     display: flex;
-    justify-content: center;
     align-items:center;
     position: relative;
     height: 50px;
+    text-decoration: none;
+    margin-right : 10px;
+
+    
     
     
    
