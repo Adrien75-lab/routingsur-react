@@ -8,7 +8,7 @@ function Navigation(props) {
      
         <div class="container">
           <Link class="navbar-brand" to="/">
-            Bienvenue sur mon site
+            Bienvenue 
           </Link>
 
           <div>
