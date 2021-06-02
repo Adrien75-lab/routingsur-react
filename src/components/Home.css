@@ -26,5 +26,7 @@
     height: 100%;
     
 }
-
-
+.navbar-brand {
+    text-decoration : none;
+    
+}
