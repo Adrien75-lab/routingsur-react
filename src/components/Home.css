@@ -6,15 +6,15 @@
     position: relative;
     height: 50px;
     text-decoration: none;
-    margin-right : 10px;
-
-    
-    
-    
-   
-   
+    margin-right : 30px;
     color: #f1f1f1;
     cursor:pointer;
+}
+
+.nav-link:hover{
+    
+   color: black;
+
 }
 .liste {
     list-style-type: none;
