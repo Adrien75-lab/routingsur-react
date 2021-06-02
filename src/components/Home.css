@@ -1,16 +1,27 @@
 
 
-.nav-link {
-    list-style-type: none;
-    background: linear-gradient(45deg,rgb(156,14,156), midnightblue);
-    height: 100%;
+.nav-link, .nav-items {
     display: flex;
     justify-content: center;
     align-items:center;
     position: relative;
-    margin-right:10px;
+    height: 50px;
+    
+    
+   
+   
     color: #f1f1f1;
     cursor:pointer;
+}
+.liste {
+    list-style-type: none;
+    background: linear-gradient(45deg,rgb(156,14,156), midnightblue);
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    position: relative;
+    height: 100%;
+    
 }
 
 

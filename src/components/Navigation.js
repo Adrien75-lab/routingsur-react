@@ -1,17 +1,18 @@
 import React from "react";
 import { Link, withRouter } from "react-router-dom";
+import "./Home.css";
 
 function Navigation(props) {
   return (
     <div className="navigation">
-      <nav class="navbar navbar-expand navbar-dark bg-dark">
+     
         <div class="container">
           <Link class="navbar-brand" to="/">
-            React Multi-Page Website
+            Bienvenue sur mon site
           </Link>
 
           <div>
-            <ul class="navbar-nav ml-auto">
+            <ul className="liste">
               <li
                 class={`nav-item  ${
                   props.location.pathname === "/" ? "active" : ""
@@ -19,7 +20,7 @@ function Navigation(props) {
               >
                 <Link class="nav-link" to="/">
                   Home
-                  <span class="sr-only">(current)</span>
+                 
                 </Link>
               </li>
               <li
@@ -43,7 +44,7 @@ function Navigation(props) {
             </ul>
           </div>
         </div>
-      </nav>
+      
     </div>
   );
 }
